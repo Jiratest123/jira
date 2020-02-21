@@ -1,0 +1,125 @@
+2019-09-25 05:14:04,622 INFO - Import started by charan.g using com.atlassian.jira.plugins.importer.imports.csv.CsvDataBean
+2019-09-25 05:14:04,993 INFO - ------------------------------
+2019-09-25 05:14:04,993 INFO - Importing: Users
+2019-09-25 05:14:04,993 INFO - ------------------------------
+2019-09-25 05:14:04,993 INFO - Only new items will be imported
+2019-09-25 05:14:05,021 INFO - 8 users associated with import. All of them imported as inactive, this can be changed after import in User Access step.
+2019-09-25 05:14:05,021 INFO - ------------------------------
+2019-09-25 05:14:05,021 INFO - Finished Importing : Users
+2019-09-25 05:14:05,021 INFO - ------------------------------
+2019-09-25 05:14:05,021 INFO - 0 users successfully created.
+2019-09-25 05:14:05,024 INFO - Retrieving projects...
+2019-09-25 05:14:05,034 INFO - Project ExternalProject{id='null', key='CC', externalName='null', name='CYNC-CloudSupport', type='null', template='null'} exists and found correctly.
+2019-09-25 05:14:05,043 INFO - ------------------------------
+2019-09-25 05:14:05,043 INFO - Importing: Versions
+2019-09-25 05:14:05,043 INFO - ------------------------------
+2019-09-25 05:14:05,043 INFO - Only new items will be imported
+2019-09-25 05:14:05,043 INFO - ------------------------------
+2019-09-25 05:14:05,043 INFO - Finished Importing : Versions
+2019-09-25 05:14:05,043 INFO - ------------------------------
+2019-09-25 05:14:05,043 INFO - ------------------------------
+2019-09-25 05:14:05,043 INFO - Importing: Components
+2019-09-25 05:14:05,043 INFO - ------------------------------
+2019-09-25 05:14:05,043 INFO - Only new items will be imported
+2019-09-25 05:14:05,043 INFO - ------------------------------
+2019-09-25 05:14:05,043 INFO - Finished Importing : Components
+2019-09-25 05:14:05,043 INFO - ------------------------------
+2019-09-25 05:14:05,047 INFO - Retrieving custom fields...
+2019-09-25 05:14:05,052 INFO - ------------------------------
+2019-09-25 05:14:05,052 INFO - Importing: Issues
+2019-09-25 05:14:05,052 INFO - ------------------------------
+2019-09-25 05:14:05,052 INFO - Only new items will be imported
+2019-09-25 05:14:05,117 INFO - Importing issue: [externalId='101', summary='LP-12  CC5.1 System generated alert from the application system showing that operating systems administrators are notified of suspicious activity']
+2019-09-25 05:14:05,577 INFO - Importing issue: [externalId='102', summary='LP-14CC5.1Example application log extract showing that application log extracts were completed by management on an as needed basis']
+2019-09-25 05:14:05,738 INFO - Importing issue: [externalId='103', summary='LP-15CC5.1VPN user listing']
+2019-09-25 05:14:05,903 INFO - Importing issue: [externalId='104', summary='LP-16CC5.1VPN administrator / super user listing']
+2019-09-25 05:14:06,186 INFO - Importing issue: [externalId='105', summary='LP-17CC5.1VPN Authentication settings showing that VPN users were authenticated via multi-factor authentication (pre-shared keys) prior to being granted remote access to the system.']
+2019-09-25 05:14:06,299 INFO - Importing issue: [externalId='106', summary='LP-19CC5.1VPN access reviews']
+2019-09-25 05:14:06,429 INFO - Importing issue: [externalId='107', summary='LP-20CC5.4Most recent logical and physical access reviews showing that control self-assessments that include physical and logical access reviews were performed on an annual basis.']
+2019-09-25 05:14:06,542 INFO - Importing issue: [externalId='108', summary='LP-25CC5.6Firewall ruleset showing that a firewall system is configured to deny any type of network connection that was not explicitly authorized by a firewall system rule.']
+2019-09-25 05:14:06,662 INFO - Importing issue: [externalId='109', summary='LP-26CC5.6Firewall router configurations showing that externally routable IP addresses were not assigned to production processing servers and that NAT functionality was utilized to manage internal IP addresses.']
+2019-09-25 05:14:06,775 INFO - Importing issue: [externalId='110', summary='LP-27CC5.6SSL certificate']
+2019-09-25 05:14:06,885 INFO - Importing issue: [externalId='111', summary='LP-28CC5.6Screenshot of the VPN authentication logon screen']
+2019-09-25 05:14:07,031 INFO - Importing issue: [externalId='112', summary='LP-29CC5.6IDS configurations']
+2019-09-25 05:14:07,136 INFO - Importing issue: [externalId='113', summary='LP-30CC5.6IDS notification configurations showing that personnel were notified upon intrusion']
+2019-09-25 05:14:07,279 INFO - Importing issue: [externalId='114', summary='LP-31CC5.6System generated alert from the IDS system']
+2019-09-25 05:14:07,388 INFO - Importing issue: [externalId='115', summary='LP-33CC5.8Listing of users with the ability to deploy changes in the production environment']
+2019-09-25 05:14:07,510 INFO - Importing issue: [externalId='116', summary='SO-1CC6.1Backup policy showing that data backup and restore procedures were in place to guide personnel in performing backup activities']
+2019-09-25 05:14:07,679 INFO - Importing issue: [externalId='117', summary='SO-2CC6.1Backup system configurations showing that an automated backup system was utilized to perform scheduled system backups']
+2019-09-25 05:14:07,790 INFO - Importing issue: [externalId='118', summary='SO-3CC6.1Backup configurations showing that full backups of certain application and database components were performed on a daily basis and incremental RDS backups were performed on a daily basis.']
+2019-09-25 05:14:07,901 INFO - Importing issue: [externalId='119', summary='SO-4CC6.1Example system generated backup status alert showing that IT personnel monitored the success or failure of backups, and were notified of backup job status via e-mail notifications.']
+2019-09-25 05:14:08,095 INFO - Importing issue: [externalId='120', summary='CM-3CC7.4Screenshot showing the development and test environments were physically separated from the production environment']
+2019-09-25 05:14:08,234 INFO - Importing issue: [externalId='121', summary='CM-4CC7.4Listing of users with the ability to make changes in the development environment.']
+2019-09-25 05:14:08,361 INFO - Importing issue: [externalId='122', summary='CM-5CC7.4Screenshot of the file integrity monitoring system']
+2019-09-25 05:14:08,485 INFO - Importing issue: [externalId='123', summary='CM-6CC7.4Example system generated alert from the file integrity monitoring system']
+2019-09-25 05:14:08,638 INFO - Importing issue: [externalId='124', summary='CM-7CC7.4Code repository showing that prior code was held in the repository for rollback capability in the event that a system change did not function as designed']
+2019-09-25 05:14:08,779 INFO - Importing issue: [externalId='125', summary='CM-8CC7.4System change tickets showing that backout procedures were documented within each change implementation to allow for rollback of changes when changes impair system operation']
+2019-09-25 05:14:08,922 INFO - Importing issue: [externalId='126', summary='PI-1PI1.1Example system generated backup restore']
+2019-09-25 05:14:09,081 INFO - Importing issue: [externalId='127', summary='PI-2PI1.1Backup encryption settings showing that backup media was stored in an encrypted format.']
+2019-09-25 05:14:09,198 INFO - Importing issue: [externalId='128', summary='PI-3PI1.1Backup operator administrator user listing with the ability to recall backup media']
+2019-09-25 05:14:09,306 INFO - Importing issue: [externalId='129', summary='PI-5PI1.1Enterprise monitoring tool configurations showing that processing capacity was monitored 24x7x365']
+2019-09-25 05:14:09,410 INFO - Importing issue: [externalId='130', summary='PI-6PI1.2Example system generated field checks showing that application edits limited input to acceptable value ranges']
+2019-09-25 05:14:09,515 INFO - Importing issue: [externalId='131', summary='PI-7PI1.2Mandatory data fields showing that application data submission required mandatory data fields to be completed before record entry was accepted']
+2019-09-25 05:14:09,682 INFO - Importing issue: [externalId='132', summary='PI-8PI1.3Exception reports showing that reports were automatically generated to identify missing data to facilitate complete, accurate, and timely processing of customer requests.']
+2019-09-25 05:14:09,793 INFO - Importing issue: [externalId='133', summary='PI-9PI1.3Example system generated object-relational mapping (ORM) utilized in the application showing that database integrity was ensured by utilizing unique keys to prevent data duplication and overwrites']
+2019-09-25 05:14:09,896 INFO - Importing issue: [externalId='134', summary='PI-10PI1.4Backup schedule configuration / backup logs showing that full RDS database backups were performed hourly and stored offsite and restored on a secondary system for use in recovery in the event of a system disruption or outage']
+2019-09-25 05:14:09,997 INFO - Importing issue: [externalId='135', summary='CI-1C1.1Data masking software']
+2019-09-25 05:14:10,095 INFO - Importing issue: [externalId='136', summary='CI-4C1.3Application authentication configuration showing that application security restricted output to approved user roles or user IDs.']
+2019-09-25 05:14:10,202 INFO - Importing issue: [externalId='137', summary='CI-5C1.3Encryption configurations / data settings']
+2019-09-25 05:14:10,328 INFO - Importing issue: [externalId='138', summary='CI-6C1.5Data center SOC report']
+2019-09-25 05:14:10,439 INFO - Importing issue: [externalId='139', summary='LP-37CC5.6Relevant physical and logical network diagrams inclusive of all firewalls protecting the production servers under review.']
+2019-09-25 05:14:10,556 INFO - Importing issue: [externalId='140', summary='PI-11PI1.4Database administrator / super user listing']
+2019-09-25 05:14:10,679 INFO - Importing issue: [externalId='141', summary='MC-14Most recently completed internal and external penetration test report']
+2019-09-25 05:14:10,788 INFO - Importing issue: [externalId='142', summary='CI-13Encryption methods and configurations for data in transit (SSL, TLS, VPN, etc.)']
+2019-09-25 05:14:10,896 INFO - Importing issue: [externalId='143', summary='LPA-1Logical and Physical Access ControlsInventory listing of system assets and components (servers, operating systems, databases, applications, tools, network devices)NOTE: Please provide evidence of how the listing was created {e.g. screen shot of parameters/query/filtering/explanation)']
+2019-09-25 05:14:10,896 INFO - Summary longer than max length of 255. Truncating to 255 characters.
+2019-09-25 05:14:11,028 INFO - Importing issue: [externalId='144', summary='LPA-2Logical and Physical Access ControlsListing of In-Scope NetworksNOTE: Networks that support the in-scope system/service']
+2019-09-25 05:14:11,155 INFO - Importing issue: [externalId='145', summary='LPA-9Logical and Physical Access ControlsAudit logging configurations for a sample of networks (This sample will be chosen from LPA-2)']
+2019-09-25 05:14:11,263 INFO - Importing issue: [externalId='146', summary='LPA-10Logical and Physical Access ControlsExample audit logging extract for a sample of networks (This sample will be chosen from LPA-2)']
+2019-09-25 05:14:11,374 INFO - Importing issue: [externalId='147', summary='LPA-12Logical and Physical Access ControlsListing of In-Scope Operating SystemsNOTE: OS' that support the in-scope system/service']
+2019-09-25 05:14:11,488 INFO - Importing issue: [externalId='148', summary='LPA-13Logical and Physical Access ControlsUser listing for a sample of operating systems (This sample will be chosen from LPA-12)']
+2019-09-25 05:14:11,654 INFO - Importing issue: [externalId='149', summary='LPA-14Logical and Physical Access ControlsAdministrators/super user listing for a sample of operating systems (This sample will be chosen from LPA-12)NOTE: This could be provided as part of LPA-13 if there is a way to denote administrator/privileged access (i.e. including the user's access, roles, or groups) within LPA-13)']
+2019-09-25 05:14:11,655 INFO - Summary longer than max length of 255. Truncating to 255 characters.
+2019-09-25 05:14:11,821 INFO - Importing issue: [externalId='150', summary='LPA-15Logical and Physical Access ControlsAccess rights associated with each group/role for a sample of operating systems (This sample will be chosen from LPA-12)']
+2019-09-25 05:14:11,929 INFO - Importing issue: [externalId='151', summary='LPA-16Logical and Physical Access ControlsOpportunity to observe personnel login to a sample of in-scope operating systems (This sample will be chosen from LPA-12)']
+2019-09-25 05:14:12,046 INFO - Importing issue: [externalId='152', summary='LPA-17Logical and Physical Access ControlsPassword configurations for a sample of operating systems (This sample will be chosen from LPA-12)']
+2019-09-25 05:14:12,156 INFO - Importing issue: [externalId='153', summary='LPA-18Logical and Physical Access ControlsAccount lockout configurations for a sample of operating systems (This sample will be chosen from LPA-12)']
+2019-09-25 05:14:12,264 INFO - Importing issue: [externalId='154', summary='LPA-19Logical and Physical Access ControlsAudit logging configurations for a sample of operating systems (This sample will be chosen from LPA-12)']
+2019-09-25 05:14:12,550 INFO - Importing issue: [externalId='155', summary='LPA-20Logical and Physical Access ControlsExample audit logging extract for a sample of operating systems (This sample will be chosen from LPA-12)']
+2019-09-25 05:14:12,658 INFO - Importing issue: [externalId='156', summary='LPA-21Logical and Physical Access ControlsListing of In-Scope DatabasesNOTE: DBs that support the in-scope system/service']
+2019-09-25 05:14:12,779 INFO - Importing issue: [externalId='157', summary='LPA-24Logical and Physical Access ControlsAccess rights associated with each group/role for a sample of databases  (This sample will be chosen from LPA-21)']
+2019-09-25 05:14:12,894 INFO - Importing issue: [externalId='158', summary='LPA-25Logical and Physical Access ControlsOpportunity to observe personnel login to a sample of in-scope database (This sample will be chosen from LPA-21)']
+2019-09-25 05:14:12,994 INFO - Importing issue: [externalId='159', summary='LPA-26Logical and Physical Access ControlsPassword configurations for a sample of databases  (This sample will be chosen from LPA-21)']
+2019-09-25 05:14:13,094 INFO - Importing issue: [externalId='160', summary='LPA-27Logical and Physical Access ControlsAccount lockout configurations for a sample of databases  (This sample will be chosen from LPA-21)']
+2019-09-25 05:14:13,196 INFO - Importing issue: [externalId='161', summary='LPA-28Logical and Physical Access ControlsAudit logging configurations for a sample of databases  (This sample will be chosen from LPA-21)']
+2019-09-25 05:14:13,309 INFO - Importing issue: [externalId='162', summary='LPA-29Logical and Physical Access ControlsExample audit logging extract for a sample of databases  (This sample will be chosen from LPA-21)']
+2019-09-25 05:14:13,469 INFO - Importing issue: [externalId='163', summary='LPA-30Logical and Physical Access ControlsListing of In-Scope ApplicationsNOTE: Applications that support the in-scope system/service']
+2019-09-25 05:14:13,596 INFO - Importing issue: [externalId='164', summary='LPA-35Logical and Physical Access ControlsPassword configurations for a sample of applications  (This sample will be chosen from LPA-30)']
+2019-09-25 05:14:13,704 INFO - Importing issue: [externalId='165', summary='LPA-36Logical and Physical Access ControlsAccount lockout configurations for a sample of applications  (This sample will be chosen from LPA-30)']
+2019-09-25 05:14:13,812 INFO - Importing issue: [externalId='166', summary='LPA-37Logical and Physical Access ControlsAudit logging configurations for a sample of applications  (This sample will be chosen from LPA-30)']
+2019-09-25 05:14:13,930 INFO - Importing issue: [externalId='167', summary='MC-4Monitoring of Controls, Control Activities, System OperationsMost recently internally completed compliance assessment including evidence that:- key systems, applications, and tools were identified and documented- the key systems, applications, and tools were assessed for compliance against documented policies and procedures- deviations and control gaps were documented- risks were identified and documented relating to the deviations and controls gaps- identified risks were addressed / mitigated - remediation efforts and corrective actions were communicated and assigned to process owners- management reviewed/signed off on the compliance assessment']
+2019-09-25 05:14:13,931 INFO - Summary longer than max length of 255. Truncating to 255 characters.
+2019-09-25 05:14:14,040 INFO - Importing issue: [externalId='168', summary='SO-9System OperationsSystem build guides / procedures for critical systems (e.g. servers, OS, DB)']
+2019-09-25 05:14:14,166 INFO - Importing issue: [externalId='169', summary='D-CI-3Communications and InformationData flow diagrams, process flow charts, and narratives identifying how data flows within the environment including the relevant information sources and systems']
+2019-09-25 05:14:14,277 INFO - Importing issue: [externalId='170', summary='D-MC-16Monitoring of ControlsFor a deviation or gap identified from the tool/system used to monitor/assess key systems, tools, and applications for compliance, evidence (e.g. incident ticket, emails) that the deviation was documented, investigated, and addressed.']
+2019-09-25 05:14:14,277 INFO - Summary longer than max length of 255. Truncating to 255 characters.
+2019-09-25 05:14:14,387 INFO - Importing issue: [externalId='171', summary='D-MC-17Monitoring of Controls, System OperationsFor a vulnerability identified from the vulnerability scans or penetration tests, evidence (e.g. incident ticket, emails) that the vulnerability was documented, investigated, and addressed using one of the following strategies:- remediate the identified vulnerability;- avoid the risk posed by the identified vulnerability;- mitigate the risk posed by the identified vulnerability;- transfer the risk posed by the identified vulnerability; or- accept the risk posed by the identified vulnerability.']
+2019-09-25 05:14:14,387 INFO - Summary longer than max length of 255. Truncating to 255 characters.
+2019-09-25 05:14:14,551 INFO - Importing issue: [externalId='172', summary='D-MC-19Monitoring of ControlsEvidence that management tracks whether vulnerabilities, deviations and control gaps are addressed in a timely manner. Evidence could include incident management reports, a tracking tool/ spreadsheet, operational reports, meeting minutes, PowerPoint deck , risk register (tracker)']
+2019-09-25 05:14:14,552 INFO - Summary longer than max length of 255. Truncating to 255 characters.
+2019-09-25 05:14:14,668 INFO - Importing issue: [externalId='173', summary='D-PI-2Processing IntegrityEvidence (e.g. screenshots, virtual meeting) showing the structure of tables and data within the database that maintains the critical data to the in-scope system/service']
+2019-09-25 05:14:14,798 INFO - Importing issue: [externalId='174', summary='D-PI-6Processing IntegrityData input, processing and output policies and procedures']
+2019-09-25 05:14:14,907 INFO - Importing issue: [externalId='175', summary='D-RA-16Risk AssessmentMost recently completed fraud assessment including evidence that the assessment:- identifies and assesses the types of fraud that could impact business and operations  (e.g. fraudulent reporting, loss of assets, unauthorized system access, overriding controls, inadequate segregations of duties, default accounts/passwords; open ports and services)- identifies and documents the fraud-related risks - addresses and mitigates the fraud-related risks-  documents/considers the fraud factors such as incentives, pressures, and opportunity - identifies/considers how personnel could engage in fraudulent activitiesNOTE: Consideration of fraud could be part of the risk assessment']
+2019-09-25 05:14:14,907 INFO - Summary longer than max length of 255. Truncating to 255 characters.
+2019-09-25 05:14:15,015 INFO - Importing issue: [externalId='176', summary='D-RA-4Risk Assessment, Monitoring of Controls, Control ActivitiesFor an example internal control that has failed, evidence the control failure was documented and remediated/addressed.']
+2019-09-25 05:14:15,146 INFO - 76 issues successfully created
+2019-09-25 05:14:15,148 INFO - ------------------------------
+2019-09-25 05:14:15,148 INFO - Finished Importing : Issues
+2019-09-25 05:14:15,148 INFO - ------------------------------
+2019-09-25 05:14:15,188 INFO - ------------------------------
+2019-09-25 05:14:15,188 INFO - Importing: Issue Links & Subtasks
+2019-09-25 05:14:15,188 INFO - ------------------------------
+2019-09-25 05:14:15,188 INFO - Only new items will be imported
+2019-09-25 05:14:15,192 INFO - ------------------------------
+2019-09-25 05:14:15,192 INFO - Finished Importing : Issue Links & Subtasks
+2019-09-25 05:14:15,192 INFO - ------------------------------
