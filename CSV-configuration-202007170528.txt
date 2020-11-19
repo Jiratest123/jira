@@ -1,0 +1,55 @@
+{
+  "config.version" : "2.0",
+  "config.project.from.csv" : "false",
+  "config.encoding" : "UTF-8",
+  "config.file.id" : "7621de61-7cde-483b-8bb8-9e4e29e4a9ed",
+  "config.email.suffix" : "@",
+  "config.file.name" : "test link.csv",
+  "config.field.mappings" : {
+    "summary" : {
+      "jira.field" : "summary",
+      "userChanged" : "true",
+      "manualMapping" : "true"
+    },
+    "issue type" : {
+      "jira.field" : "issuetype",
+      "userChanged" : "true",
+      "manualMapping" : "true"
+    },
+    "issue key" : {
+      "jira.field" : "issuekey",
+      "userChanged" : "true",
+      "manualMapping" : "true"
+    },
+    "status" : {
+      "jira.field" : "status",
+      "userChanged" : "true",
+      "manualMapping" : "true"
+    }
+  },
+  "config.csv.file.id" : null,
+  "config.value.mappings" : {
+    "summary" : {
+      "TEST! Story 1" : "TEST! Story 1"
+    },
+    "issue type" : {
+      "Story-LOS" : "10859"
+    },
+    "issue key" : {
+      "TESTC-99" : "TESTC-99"
+    },
+    "status" : {
+      "Open" : "1"
+    }
+  },
+  "config.delimiter" : ",",
+  "config.project" : {
+    "project.type" : null,
+    "project.key" : "TESTC",
+    "project.description" : null,
+    "project.url" : null,
+    "project.name" : "Test project ",
+    "project.lead" : null
+  },
+  "config.date.format" : "dd/MMM/yy h:mm a"
+}
